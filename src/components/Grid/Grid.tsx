@@ -30,7 +30,7 @@ export function Grid({ repos }: any) {
   ]
 
   return (
-    <div className='ag-theme-alpine' style={{ marginLeft: '20px', marginRight: '20px', height: "50vh", flex: 1 }}>
+    <div className='ag-theme-alpine' style={{ alignItems:"center", marginLeft: "200px",marginRight: "200px", height: "450px", flex: 1 }}>
       <AgGridReact rowData={repos}
         columnDefs={columns}
         pagination={true}
